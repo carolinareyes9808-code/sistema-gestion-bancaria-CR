@@ -1,0 +1,24 @@
+{
+  "nombreEntidad": "Banco Financiero - Sistema Integrado",
+  "lema": "Soluciones financieras claras, oportunas y a tu alcance",
+  "bienvenida": "Bienvenido al Sistema Integrado de Atención y Simulación Financiera.",
+  "subtitulo": "Consulte nuestros productos y realice simulaciones de manera rápida y sencilla.",
+  "direccion": "Cra. 5 # 14 - 32, Sector Centro, La Dorada, Caldas",
+  "telefono": "(+57) 606 857 2020 / Línea Nacional: 01 8000 912 345",
+  "correo": "atencion@entidadfinanciera.com.co",
+  "horario": "Lunes a Viernes: 8:00 a.m. a 4:00 p.m. (Jornada continua) | Sábados: 9:00 a.m. a 1:00 p.m.",
+  "canalesAtencion": [
+    {
+      "tipo": "Línea Telefónica",
+      "detalle": "01 8000 912 345 (Gratuita nacional)"
+    },
+    {
+      "tipo": "Atención Presencial",
+      "detalle": "Cra. 5 # 14 - 32, La Dorada, Caldas"
+    },
+    {
+      "tipo": "Correo Electrónico",
+      "detalle": "atencion@entidadfinanciera.com.co"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "credito-vivienda",
+    "nombre": "Crédito de Vivienda",
+    "categoria": "Crédito",
+    "tipo": "Vivienda",
+    "descripcion": "Financiación para compra de vivienda nueva o usada.",
+    "descripcionLarga": "Facilitamos la adquisición de vivienda propia (nueva, usada o construcción) con tasas competitivas y plazos cómodos que se adaptan a su capacidad de endeudamiento familiar.",
+    "tasaReferenciaMes": 1.15,
+    "tasaReferenciaAnual": 14.7,
+    "plazoMinMeses": 60,
+    "plazoMaxMeses": 240,
+    "montoMinimo": 20000000,
+    "montoMaximo": 500000000,
+    "beneficios": [
+      "Plazos flexibles hasta 20 años (240 meses)",
+      "Financiación de hasta el 70% u 80% del valor del inmueble",
+      "Posibilidad de realizar abonos extraordinarios a capital sin penalización",
+      "Estudio de crédito ágil para clientes y asesores"
+    ],
+    "requisitos": [
+      "Edad entre 18 y 70 años",
+      "Certificación laboral con ingresos demostrables superiores a 2 SMMLV",
+      "Certificado de tradición y libertad del inmueble",
+      "Formulario de solicitud diligenciado"
+    ],
+    "icono": "Home",
+    "permiteSimulacion": true,
+    "rutaSimulador": "/simulador-credito?tipo=Vivienda"
+  },
+  {
+    "id": "credito-libre-inversion",
+    "nombre": "Crédito de Libre Inversión",
+    "categoria": "Crédito",
+    "tipo": "Libre inversión",
+    "descripcion": "Crédito para necesidades personales.",
+    "descripcionLarga": "Diseñado para financiar sus proyectos personales, viajes, estudios, consolidación de pasivos o cualquier necesidad de liquidez inmediata con cuotas fijas mensuales.",
+    "tasaReferenciaMes": 1.65,
+    "tasaReferenciaAnual": 21.6,
+    "plazoMinMeses": 12,
+    "plazoMaxMeses": 60,
+    "montoMinimo": 1000000,
+    "montoMaximo": 80000000,
+    "beneficios": [
+      "Libre destinación de los recursos sin justificación de gasto",
+      "Tasa y cuota fija durante toda la vigencia del crédito",
+      "Desembolso directo a su cuenta bancaria",
+      "Seguro de vida y desempleo incluido"
+    ],
+    "requisitos": [
+      "Fotocopia de documento de identidad ampliado al 150%",
+      "Antigüedad laboral mínima de 6 meses (empleados) o 1 año (independientes)",
+      "Desprendibles de pago de nómina de los últimos 3 meses",
+      "Historial crediticio favorable"
+    ],
+    "icono": "Wallet",
+    "permiteSimulacion": true,
+    "rutaSimulador": "/simulador-credito?tipo=Libre inversión"
+  },
+  {
+    "id": "credito-vehiculo",
+    "nombre": "Crédito de Vehículo",
+    "categoria": "Crédito",
+    "tipo": "Vehículo",
+    "descripcion": "Financiación para adquisición de vehículo.",
+    "descripcionLarga": "Financiamos la compra de su automóvil, camioneta o motocicleta (nuevo o usado) con excelentes condiciones financieras y aprobación preferencial en concesionarios aliados.",
+    "tasaReferenciaMes": 1.35,
+    "tasaReferenciaAnual": 17.4,
+    "plazoMinMeses": 12,
+    "plazoMaxMeses": 72,
+    "montoMinimo": 10000000,
+    "montoMaximo": 150000000,
+    "beneficios": [
+      "Financia hasta el 90% para vehículos nuevos",
+      "Periodo de gracia opcional en la primera cuota",
+      "Plazos de hasta 6 años (72 meses)",
+      "Póliza todo riesgo financiada dentro del mismo plan"
+    ],
+    "requisitos": [
+      "Cotización o factura proforma del vehículo",
+      "Ingresos mínimos de 1.5 SMMLV",
+      "Peritaje técnico aprobado (en caso de vehículos usados)",
+      "Pagaré y carta de instrucciones firmadas"
+    ],
+    "icono": "Car",
+    "permiteSimulacion": true,
+    "rutaSimulador": "/simulador-credito?tipo=Vehículo"
+  },
+  {
+    "id": "cdt",
+    "nombre": "CDT (Certificado de Depósito a Término)",
+    "categoria": "Inversión",
+    "tipo": "CDT",
+    "descripcion": "Inversión a término con rentabilidad definida.",
+    "descripcionLarga": "Haga crecer sus ahorros con rentabilidad garantizada y segura. Invierta su capital a plazos desde 3 meses en adelante con tasas preferenciales y respaldo del seguro de depósitos.",
+    "tasaReferenciaMes": 0.85,
+    "tasaReferenciaAnual": 10.5,
+    "plazoMinMeses": 3,
+    "plazoMaxMeses": 36,
+    "montoMinimo": 500000,
+    "montoMaximo": 1000000000,
+    "beneficios": [
+      "Tasa fija pactada desde el primer día que no varía ante fluctuaciones del mercado",
+      "Elección de pago de intereses mensual, trimestral o al vencimiento",
+      "Certificado negociable en el mercado secundario",
+      "Respaldo y seguridad para su patrimonio financiero"
+    ],
+    "requisitos": [
+      "Cédula de ciudadanía o extranjería vigente",
+      "Monto inicial de apertura desde $500.000 COP",
+      "Declaración de origen de fondos",
+      "Firma del contrato de depósito a término"
+    ],
+    "icono": "TrendingUp",
+    "permiteSimulacion": true,
+    "rutaSimulador": "/simulador-cdt"
+  },
+  {
+    "id": "cuenta-ahorros",
+    "nombre": "Cuenta de Ahorros",
+    "categoria": "Ahorro",
+    "tipo": "Ahorros",
+    "descripcion": "Producto para administrar y ahorrar dinero.",
+    "descripcionLarga": "Cuenta de ahorros tradicional y digital para gestionar sus finanzas del día a día, recibir ingresos, realizar pagos seguros y generar rendimientos sobre saldo diario.",
+    "tasaReferenciaMes": 0.25,
+    "tasaReferenciaAnual": 3.0,
+    "plazoMinMeses": 0,
+    "plazoMaxMeses": 0,
+    "montoMinimo": 0,
+    "montoMaximo": 0,
+    "beneficios": [
+      "Apertura 100% asistida y sin cuota de manejo durante el primer año",
+      "Tarjeta débito física y digital habilitada para compras nacionales e internacionales",
+      "Exención del 4x1000 según la normatividad tributaria vigente",
+      "Transferencias interbancarias inmediatas a bajo costo o gratuitas"
+    ],
+    "requisitos": [
+      "Documento de identificación original",
+      "Datos de contacto actualizados (celular y correo electrónico)",
+      "Sin saldo mínimo de apertura requerido"
+    ],
+    "icono": "PiggyBank",
+    "permiteSimulacion": false,
+    "rutaSimulador": "/contacto"
+  }
+]

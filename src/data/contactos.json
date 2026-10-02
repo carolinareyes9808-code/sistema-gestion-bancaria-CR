@@ -1,0 +1,10 @@
+[
+  {
+    "id": "msg-1",
+    "nombre": "Carlos Alberto Mendoza",
+    "correo": "carlos.mendoza@ejemplo.com",
+    "mensaje": "Deseo recibir asesoría personalizada para un crédito de vivienda nueva en el municipio de La Dorada.",
+    "fecha": "2026-09-24T18:30:00.000Z",
+    "estado": "Pendiente"
+  }
+]
